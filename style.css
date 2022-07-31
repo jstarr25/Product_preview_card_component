@@ -1,0 +1,154 @@
+body {
+  background-color: rgb(242, 235, 227);
+  background-color: hsl(30, 38%, 92%);
+}
+
+h3 {
+  color: #6C7289;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+h1 {
+  color: #1C232B;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 10px;
+}
+
+/* Card - Landscape */
+.card {
+  border-radius: 10px;
+  background-color: white;
+  height: 450px;
+  left: 420px;
+  position: absolute;
+  top: 175px;
+  width: 600px;
+}
+
+.card-image {
+  border-radius: 10px 0 0 10px;
+  height: 450px;
+  position: absolute;
+  width: 300px;
+  display: inline-block;
+}
+
+.card-image-mobile {
+  display: none;
+}
+
+.card-text {
+  height: 450px;
+  left: 300px;
+  position: absolute;
+  width: 300px;
+}
+
+.card-info {
+  padding: 32px;
+}
+
+.card-description {
+  color: #6C7289;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+/* Pricing */
+.price {
+  color: rgb(60, 128, 103);
+  color: hsl(158, 36%, 37%);
+  display: inline-block;
+}
+
+.old-price {
+  color: #6C7289;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  padding-left: 20px;
+  vertical-align: super;
+}
+
+/* Button positioning and styling */
+.button {
+  background-color: rgb(60, 128, 103);
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  height: 48px;
+  width: 236px;
+}
+
+.button:hover {
+  background-color: rgb(28, 35, 43);
+  background-color: hsl(212, 21%, 14%)
+}
+
+.img-cart {
+  float: left;
+}
+
+.button-cart {
+  margin: auto;
+  padding-top: 13px;
+  text-align: center;
+  width: 110px;
+}
+
+.button-text {
+  color: #fff;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0;
+}
+
+@media (max-width: 375px) {
+
+  .card {
+    position: absolute;
+    height: 611px;
+    width: 343px;
+    top: 28px;
+    left: 16px;
+  }
+
+  .card-image {
+    display: none;
+  }
+
+  .card-image-mobile {
+    border-radius: 10px 10px 0 0;
+    height: 240px;
+    display: inline-block;
+    width: 343px;
+
+  }
+
+  .card-text {
+    left: 0;
+    top: 250px;
+  }
+
+  .card-info {
+    padding: 10px 0 0 20px;
+    width: 300px;
+  }
+
+  .card-description {
+    margin: 0;
+  }
+
+  .button {
+    width: 300px;
+  }
+}
